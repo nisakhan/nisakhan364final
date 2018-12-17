@@ -26,6 +26,7 @@ I used my HW5.
 I used lectures, especially this one for Heroku:
 https://docs.google.com/document/d/10DSTNhFOD9z85tmu4k7PbOUH9mANjEHc2vveTUQFdqw/edit
 https://docs.google.com/document/d/1xjIiqyW0qkN4cTwgLJLjDHCdFcJBG_I6OijAaKvXEuo/edit
+https://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python
 
 Requirements:
 
