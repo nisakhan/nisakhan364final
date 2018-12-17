@@ -25,6 +25,7 @@ I used my HW4 (which I fixed and debugged before starting this project).
 I used my HW5.
 I used lectures, especially this one for Heroku:
 https://docs.google.com/document/d/10DSTNhFOD9z85tmu4k7PbOUH9mANjEHc2vveTUQFdqw/edit
+https://docs.google.com/document/d/1xjIiqyW0qkN4cTwgLJLjDHCdFcJBG_I6OijAaKvXEuo/edit
 
 Requirements:
 
