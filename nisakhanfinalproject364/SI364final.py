@@ -133,6 +133,13 @@ class articlesearchForm(FlaskForm):
     search = StringField("Enter a term to search articles", validators=[Required()])
     submit = SubmitField('Submit')
 
+    def validate_search(self, field):
+        search_here = field.data
+        if search_here[0] == "#":
+            raise ValidationError ("!!!! ERRORS IN FORM SUBMISSION - you can't start with hashtags!")
+        if len(search_here.split(" ")) > 1:
+            raise ValidationError ("Display name must be only 1 word")
+
 class CollectionCreateForm(FlaskForm):
     name = StringField('Collection Name',validators=[Required()])
     article_picks = SelectMultipleField('articles to include')

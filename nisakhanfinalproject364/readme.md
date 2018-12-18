@@ -2,7 +2,13 @@
 In my application, you can search for articles related to a term in headlines all around the world! The NewsAPI is international and across many different publications. You can search for serious topics like "economy" or silly ones like "whoops!" It will show up. Once you see your list of articles, you can register and login with the app to save a bunch of articles to a collection. You must be logged in for the collections feature! In collections, if you made a mistake, you can go back and delete certain items.
 
 Heads up! All of your searches are logged.
-And you can only see 10 articles at a time. 
+And you can only see 10 articles at a time.
+
+WHEN YOU SEARCH IT HAS TO BE:
+1 world
+and CANNOT start with a #.
+
+I purposely put the navigation in the header and footer, for easier usage. You can't also register with the same email!!
 
 http://localhost:5000/ -> index.html
 http://localhost:5000/login -> login.html
@@ -25,8 +31,10 @@ I used my HW4 (which I fixed and debugged before starting this project).
 I used my HW5.
 I used lectures, especially this one for Heroku:
 https://docs.google.com/document/d/10DSTNhFOD9z85tmu4k7PbOUH9mANjEHc2vveTUQFdqw/edit
-https://docs.google.com/document/d/1xjIiqyW0qkN4cTwgLJLjDHCdFcJBG_I6OijAaKvXEuo/edit
+https://lat.sk/2017/03/custom-json-schema-type-validator-format-python/
+https://www.geeksforgeeks.org/python-program-check-string-contains-special-character/
 https://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python
+https://docs.google.com/document/d/1xjIiqyW0qkN4cTwgLJLjDHCdFcJBG_I6OijAaKvXEuo/edit
 
 Requirements:
 
@@ -34,9 +42,9 @@ Requirements:
 
 **A user should be able to load http://localhost:5000 and see the first page they ought to see on the application.**
 
-Include navigation in base.html with links (using a href tags) that lead to every other page in the application that a user should be able to click on. (e.g. in the lecture examples from the Feb 9 lecture, like this )
+**Include navigation in base.html with links (using a href tags) that lead to every other page in the application that a user should be able to click on. (e.g. in the lecture examples from the Feb 9 lecture, like this )
 
-Ensure that all templates in the application inherit (using template inheritance, with extends) from base.html and include at least one additional block.
+Ensure that all templates in the application inherit (using template inheritance, with extends) from base.html and include at least one additional block.**
 
 **Must use user authentication (which should be based on the code you were provided to do this e.g. in HW4).**
 
@@ -76,7 +84,7 @@ Ensure that all templates in the application inherit (using template inheritance
 
 **At least one WTForm that sends data with a POST request to a new page. (NOT counting the login or registration forms provided for you in class.)**
 
-At least two custom validators for a field in a WTForm, NOT counting the custom validators included in the log in/auth code.
+**At least two custom validators for a field in a WTForm, NOT counting the custom validators included in the log in/auth code.**
 
 Include at least one way to update items saved in the database in the application (like in HW5).
 
@@ -86,9 +94,10 @@ Include at least one way to update items saved in the database in the applicatio
 
 **Include at least two uses of url_for. (HINT: Likely you'll need to use this several times, really.)**
 
-Have at least 5 view functions that are not included with the code we have provided. (But you may have more!)
+**Have at least 5 view functions that are not included with the code we have provided. (But you may have more!)**
 
 Additional Requirements for extra points -- an app with extra functionality!
+
 (100 points) Include a use of an AJAX request in your application that accesses and displays useful (for use of your application) data.
 **(100 points) Create, run, and commit at least one migration. (We'll see this from the files generated and can check the history)**
 **(100 points) Deploy the application to the internet (Heroku) — only counts if it is up when we grade / you can show proof it is up at a URL and tell us what the URL is in the README. (Heroku deployment as we taught you is 100% free so this will not cost anything.)**
