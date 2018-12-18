@@ -1,5 +1,5 @@
 
-In my application, you can search for articles related to a term in headlines all around the world! The NewsAPI is international and across many different publications. You can search for serious topics like "economy" or silly ones like "whoops!" It will show up. Once you see your list of articles, you can register and login with the app to save a bunch of articles to a collection. You must be logged in for the collections feature! In collections, if you made a mistake, you can go back and delete certain items.
+In my application, you can search for articles related to a term in headlines all around the world! The NewsAPI is international and across many different publications. You can search for serious topics like "economy" or silly ones like "whoops" It will show up. Once you see your list of articles, you can register and login with the app to save a bunch of articles to a collection. You must be logged in for the collections feature! In collections, if you made a mistake, you can go back and delete certain items.
 
 Heads up! All of your searches are logged.
 And you can only see 10 articles at a time.
