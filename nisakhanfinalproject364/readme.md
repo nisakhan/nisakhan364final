@@ -44,7 +44,7 @@ Requirements:
 
 **Include navigation in base.html with links (using a href tags) that lead to every other page in the application that a user should be able to click on. (e.g. in the lecture examples from the Feb 9 lecture, like this )
 
-Ensure that all templates in the application inherit (using template inheritance, with extends) from base.html and include at least one additional block.**
+***Ensure that all templates in the application inherit (using template inheritance, with extends) from base.html and include at least one additional block.***
 
 **Must use user authentication (which should be based on the code you were provided to do this e.g. in HW4).**
 
